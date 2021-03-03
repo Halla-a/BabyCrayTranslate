@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="236dp"
+        android:layout_height="294dp"
+        android:layout_above="@+id/reltvv"
+        android:layout_below="@+id/textView53"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/ic_flowers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="302dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="62dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="248dp"
+            android:layout_height="62dp"
+            android:layout_marginBottom="-10dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="300dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="00:00:00"
+            android:textAlignment="gravity"
+            android:textColor="@color/recorder_bgg"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/reltvv"
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/restart"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="50dp"
+            android:layout_toStartOf="@+id/record"
+            android:layout_toLeftOf="@+id/record"
+            android:onClick="restartRecording"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/aar_ic_restart"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/record"
+
+            android:layout_width="130dp"
+            android:layout_height="133dp"
+
+            android:layout_centerInParent="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#FFFFFF"
+            android:onClick="toggleRecording"
+            android:padding="10dp"
+            android:src="@drawable/ic_group_41"
+            tools:src="@drawable/ic_group_41" />
+
+        <ImageButton
+            android:id="@+id/play"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/record"
+            android:layout_toRightOf="@+id/record"
+            android:onClick="togglePlaying"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/aar_ic_play" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="288dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="62dp"
+        android:fontFamily="@font/cairo_extralight"
+        android:gravity="center"
+        android:text="قم بالضغط المستمر على المايك للتسجيل"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</RelativeLayout>

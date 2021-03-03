@@ -1,0 +1,6 @@
+include ':musicg-1.4.2.0'
+include ':conn'
+include ':app'
+
+
+rootProject.name = "myapp"

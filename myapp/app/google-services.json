@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "493156340821",
+    "firebase_url": "https://babycraytranslat.firebaseio.com",
+    "project_id": "babycraytranslat",
+    "storage_bucket": "babycraytranslat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493156340821:android:ffe6360706f3dbd4fa70dc",
+        "android_client_info": {
+          "package_name": "com.examle.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493156340821-no7g8la304ro8gll0mri3qqj1dfvs0dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.examle.myapp",
+            "certificate_hash": "cfd0858307b28d9ffdb95cb9a0fcde2e7574517e"
+          }
+        },
+        {
+          "client_id": "493156340821-ovnel29v9q8cj14fqklrr3rv7bchqvoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASO-tUMTIPa2jha7omCDVtYKsdUa87ESM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493156340821-ovnel29v9q8cj14fqklrr3rv7bchqvoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493156340821:android:6cadf2045e11250dfa70dc",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493156340821-ovnel29v9q8cj14fqklrr3rv7bchqvoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASO-tUMTIPa2jha7omCDVtYKsdUa87ESM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493156340821-ovnel29v9q8cj14fqklrr3rv7bchqvoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

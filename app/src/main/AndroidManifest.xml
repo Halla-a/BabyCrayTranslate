@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codeforiraq.myapp">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.codeforiraq.myapp.result"></activity>
+        <activity android:name="com.codeforiraq.myapp.Reason" />
+        <activity android:name="com.codeforiraq.myapp.six" />
+        <activity android:name="com.codeforiraq.myapp.AudioRecorderActivity" />
+        <activity android:name="com.codeforiraq.myapp.Five" />
+        <activity android:name="com.codeforiraq.myapp.four" />
+        <activity android:name="com.codeforiraq.myapp.Three" />
+        <activity android:name="com.codeforiraq.myapp.Two" />
+        <activity android:name="com.codeforiraq.myapp.one" />
+        <activity
+            android:name="com.codeforiraq.myapp.MainActivity"
+            android:label="Babe Cry  Translate"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
